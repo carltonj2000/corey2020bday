@@ -9,6 +9,7 @@ import PhotosMain from "./PhotosMain";
 import Day1 from "./img_day1.js";
 import Day2 from "./img_day2.js";
 import Day3 from "./img_day3.js";
+import gettingThere from "./gettingThere.js";
 
 export default function App() {
   return (
@@ -16,6 +17,12 @@ export default function App() {
       <Switch>
         <Route exact path="/">
           <PhotosMain />
+        </Route>
+        <Route path="/photos">
+          <PhotosMain />
+        </Route>
+        <Route path="/gettingThere">
+          <Photos tileData={gettingThere} />
         </Route>
         <Route path="/day1">
           <Photos tileData={Day1} />

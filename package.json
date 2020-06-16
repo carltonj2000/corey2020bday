@@ -20,7 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "rsync -a ./build/ carltonj2000@carltonjoseph.com:/mnt/volume_sfo2_02/cj/sophieandchampagne/web/corey2020bday/",
-    "imggen": "deno run --allow-net --allow-read --allow-write ./scripts/genImages.js"
+    "imggen": "deno run --allow-net --allow-read --allow-write --unstable ./scripts/genImages.js",
+    "imggendev": "denon run --allow-net --allow-read --allow-write --unstable ./scripts/genImages.js"
   },
   "eslintConfig": {
     "extends": "react-app"
