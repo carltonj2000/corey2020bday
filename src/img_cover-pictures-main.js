@@ -1,21 +1,15 @@
-import md_62be33af83e39918ebd93f5824e84e7f from "./images/dummy/City-of-Sedona.jpg";
-import md_e6a3cae928a4f36e8e373ad2ecf72252 from "./images/dummy/IMG_2830.jpg";
-import md_96659d5b9c87e2a84d9ce8a0510e9a06 from "./images/dummy/Hiking-Couple-Red-Rocks-web-1920x1080.jpg";
+import DSC01024 from "./images/day1/resized/size_1080x720/DSC01024.JPG";
+import DSC01303 from "./images/day2/resized/size_1080x720/DSC01303.JPG";
 
 export default [
   {
-    description: "Place 1",
-    img: md_62be33af83e39918ebd93f5824e84e7f,
+    description: "Cathedral Rock",
+    img: DSC01024,
     route: "day1",
   },
   {
-    description: "Place 2",
-    img: md_e6a3cae928a4f36e8e373ad2ecf72252,
+    description: "Devil's Bridge",
+    img: DSC01303,
     route: "day2",
-  },
-  {
-    description: "Place 3",
-    img: md_96659d5b9c87e2a84d9ce8a0510e9a06,
-    route: "day3",
   },
 ];
