@@ -11,6 +11,9 @@ import devilsBridge from "./devilsBridge.js";
 import sedona from "./sedona.js";
 import chapelOnTheRock from "./chapelOnTheRock.js";
 import airportMesa from "./airportMesa.js";
+import cockscomb from "./cockscomb.js";
+import sedonaVillage from "./sedonaVillage.js";
+import oatman from "./oatman.js";
 
 const imgGrpsArr = [
   [{ gettingThere }, "Getting There"],
@@ -22,6 +25,9 @@ const imgGrpsArr = [
   [{ sedona }, "Sedona"],
   [{ chapelOnTheRock }, "Chapel On The Rock"],
   [{ airportMesa }, "Airport Mesa"],
+  [{ cockscomb }, "Cockscomb"],
+  [{ sedonaVillage }, "Sedona Village"],
+  [{ oatman }, "Oatman"],
 ];
 
 const grpStr = (g) => Object.keys(g)[0];
@@ -65,7 +71,7 @@ imgGrps.map(async (grp) => {
   }
 
   const arrGrpStr = "\nexport default [\n" + arrGrp.join("") + "]\n";
-  const header = `// DO NOT edit. Auto generated.`; // on ${new Date()}\n\n`;
+  const header = `// DO NOT edit. Auto generated.\n\n`; // on ${new Date()}\n\n`;
   const outStr = header + imgGrp.join("") + arrGrpStr;
 
   const outFn = path.join(Deno.cwd(), "./src", `${grp.name}.js`);

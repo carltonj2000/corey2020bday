@@ -1,4 +1,4 @@
-// DO NOT edit. Auto generated on Tue Jun 16 2020 20:57:17 GMT-0700 (PDT)
+// DO NOT edit. Auto generated.
 
 import DSC01214 from "./images/day1/resized/size_1080x720/DSC01214.JPG";
 import DSC01215 from "./images/day1/resized/size_1080x720/DSC01215.JPG";

@@ -7,6 +7,9 @@ import DSC01303 from "./images/day2/resized/size_1080x720/DSC01303.JPG";
 import DSC01306 from "./images/day2/resized/size_1080x720/DSC01306.JPG";
 import DSC01324 from "./images/day2nite/resized/size_1080x720/DSC01324.JPG";
 import DSC01335 from "./images/day2nite/resized/size_1080x720/DSC01335.JPG";
+import DSC01348 from "./images/day3/resized/size_1080x720/DSC01348.JPG";
+import DSC01352 from "./images/day3/resized/size_1080x720/DSC01352.JPG";
+import DSC01374 from "./images/day3/resized/size_1080x720/DSC01374.JPG";
 
 export default [
   {
@@ -53,5 +56,20 @@ export default [
     description: "Airport Mesa",
     img: DSC01335,
     route: "airportMesa",
+  },
+  {
+    description: "Cockscomb",
+    img: DSC01348,
+    route: "cockscomb",
+  },
+  {
+    description: "Sedona Village",
+    img: DSC01352,
+    route: "sedonaVillage",
+  },
+  {
+    description: "Oatman",
+    img: DSC01374,
+    route: "oatman",
   },
 ];

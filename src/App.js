@@ -15,6 +15,9 @@ import devilsBridge from "./devilsBridge.js";
 import sedona from "./sedona.js";
 import chapelOnTheRock from "./chapelOnTheRock.js";
 import airportMesa from "./airportMesa.js";
+import cockscomb from "./cockscomb.js";
+import sedonaVillage from "./sedonaVillage.js";
+import oatman from "./oatman.js";
 
 export default function App() {
   return (
@@ -35,6 +38,9 @@ export default function App() {
         <Route path="/cathedralRock">
           <Photos tileData={cathedralRock} />
         </Route>
+        <Route path="/oatman">
+          <Photos tileData={oatman} />
+        </Route>
         <Route path="/italianEats">
           <Photos tileData={italianEats} />
         </Route>
@@ -43,6 +49,12 @@ export default function App() {
         </Route>
         <Route path="/airportMesa">
           <Photos tileData={airportMesa} />
+        </Route>
+        <Route path="/cockscomb">
+          <Photos tileData={cockscomb} />
+        </Route>
+        <Route path="/sedonaVillage">
+          <Photos tileData={sedonaVillage} />
         </Route>
         <Route path="/sedona">
           <Photos tileData={sedona} />

@@ -1,4 +1,4 @@
-// DO NOT edit. Auto generated on Tue Jun 16 2020 20:57:17 GMT-0700 (PDT)
+// DO NOT edit. Auto generated.
 
 import DSC01319 from "./images/day2nite/resized/size_1080x720/DSC01319.JPG";
 import DSC01320 from "./images/day2nite/resized/size_1080x720/DSC01320.JPG";
