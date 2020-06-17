@@ -1,10 +1,16 @@
 const imgsArr = [
-  ["DSC00979.JPG", "suv on freeway"],
-  ["DSC00983.JPG", "Tina in car"],
-  ["DSC00984.JPG", "Corey in car"],
-  ["DSC00993.JPG", "Flagstaff downtown"],
-  ["DSC00997.JPG", "Flagstaff pita shop"],
-  ["DSC01000.JPG", "Sedona Summit Resort"],
+  ["DSC01214.JPG", "Italian Eats NOT"],
+  ["DSC01215.JPG", "Italian Eats Lamp NOT"],
+  ["DSC01216.JPG", "Italian Eats Flag"],
+  ["DSC01220.JPG", "Italian Eats Social Distancing"],
+  ["DSC01228.JPG", "Italian Eats Patio"],
+  ["DSC01230.JPG", "Italian Eats Cheese"],
+  ["DSC01234.JPG", "Italian Eats Group"],
+  ["DSC01238.JPG", "Italian Eats Corey Cake"],
+  ["DSC01242.JPG", "Italian Eats Group Vines"],
+  ["DSC01244.JPG", "Italian Eats Tina and Carlton Vines"],
+  ["DSC01247.JPG", "Italian Eats Vines"],
+  ["DSC01248.JPG", "Italian Eats Peach"],
 ];
 
 const imgs = imgsArr.map((i) => ({

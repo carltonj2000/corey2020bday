@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "rsync -a ./build/ carltonj2000@carltonjoseph.com:/mnt/volume_sfo2_02/cj/sophieandchampagne/web/corey2020bday/",
+    "deploy": "rsync -a ./build/ carltonj2000@carltonjoseph.com:/mnt/volume_sfo2_02/cj/sophieandchampagne/web/corey/2020/birthday/",
     "imggen": "deno run --allow-net --allow-read --allow-write --unstable ./scripts/genImages.js",
     "imggendev": "denon run --allow-net --allow-read --allow-write --unstable ./scripts/genImages.js"
   },
@@ -38,5 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://sophieandchampagne.com/corey2020bday"
+  "homepage": "https://sophieandchampagne.com/corey/2020/birthday"
 }

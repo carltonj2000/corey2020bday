@@ -1,16 +1,18 @@
 {
   "$schema": "https://deno.land/x/denon/schema.json",
-  "scripts": {
-    "start": {
-      "cmd": "deno run app.ts",
-      "desc": "run my app.ts file"
-    }
-  },
   "watcher": {
     "interval": 350,
-    "exts": ["js", "jsx", "ts", "tsx", "json"],
-    "match": ["./scripts"],
-    "skip": ["*/.git/*"],
+    "exts": ["js"],
+    "match": ["*.*"],
+    "skip": [
+      "*/.git/*",
+      "*/.vscode/*",
+      "*/src/*.*",
+      "*/node_modules/*",
+      "*/build/*",
+      "*/resources/*",
+      "*/public/*"
+    ],
     "legacy": false
   }
 }

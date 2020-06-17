@@ -1,10 +1,9 @@
 const imgsArr = [
-  ["DSC00979.JPG", "suv on freeway"],
-  ["DSC00983.JPG", "Tina in car"],
-  ["DSC00984.JPG", "Corey in car"],
-  ["DSC00993.JPG", "Flagstaff downtown"],
-  ["DSC00997.JPG", "Flagstaff pita shop"],
-  ["DSC01000.JPG", "Sedona Summit Resort"],
+  ["DSC01002.JPG", "Corey and gift"],
+  ["DSC01005.JPG", "Wrong gift"],
+  ["DSC01007.JPG", "Correct gift"],
+  ["DSC01011.JPG", "Camera Lens gift"],
+  ["DSC01015.JPG", "The crew"],
 ];
 
 const imgs = imgsArr.map((i) => ({

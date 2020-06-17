@@ -3,8 +3,18 @@ import { exists } from "https://deno.land/std/fs/mod.ts";
 import * as c from "https://deno.land/std/fmt/colors.ts";
 
 import gettingThere from "./gettingThere.js";
+import giftTime from "./giftTime.js";
+import cathedralRock from "./cathedralRock.js";
+import airportSunset from "./airportSunset.js";
+import italianEats from "./italianEats.js";
 
-const imgGrpsArr = [[{ gettingThere }, "Getting There"]];
+const imgGrpsArr = [
+  [{ gettingThere }, "Getting There"],
+  [{ giftTime }, "Gift Time"],
+  [{ cathedralRock }, "Cathedral Rock"],
+  [{ airportSunset }, "Airport At Sunset"],
+  [{ italianEats }, "Italian Eats"],
+];
 
 const grpStr = (g) => Object.keys(g)[0];
 

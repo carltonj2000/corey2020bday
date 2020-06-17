@@ -10,10 +10,14 @@ import Day1 from "./img_day1.js";
 import Day2 from "./img_day2.js";
 import Day3 from "./img_day3.js";
 import gettingThere from "./gettingThere.js";
+import giftTime from "./giftTime.js";
+import cathedralRock from "./cathedralRock.js";
+import airportSunset from "./airportSunset.js";
+import italianEats from "./italianEats.js";
 
 export default function App() {
   return (
-    <Router basename={"/corey2020bday"}>
+    <Router basename={"/corey/2020/birthday"}>
       <Switch>
         <Route exact path="/">
           <PhotosMain />
@@ -23,6 +27,18 @@ export default function App() {
         </Route>
         <Route path="/gettingThere">
           <Photos tileData={gettingThere} />
+        </Route>
+        <Route path="/giftTime">
+          <Photos tileData={giftTime} />
+        </Route>
+        <Route path="/cathedralRock">
+          <Photos tileData={cathedralRock} />
+        </Route>
+        <Route path="/italianEats">
+          <Photos tileData={italianEats} />
+        </Route>
+        <Route path="/airportSunset">
+          <Photos tileData={airportSunset} />
         </Route>
         <Route path="/day1">
           <Photos tileData={Day1} />
