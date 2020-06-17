@@ -4,6 +4,9 @@ import DSC01024 from "./images/day1/resized/size_1080x720/DSC01024.JPG";
 import DSC01175 from "./images/day1/resized/size_1080x720/DSC01175.JPG";
 import DSC01216 from "./images/day1/resized/size_1080x720/DSC01216.JPG";
 import DSC01303 from "./images/day2/resized/size_1080x720/DSC01303.JPG";
+import DSC01306 from "./images/day2/resized/size_1080x720/DSC01306.JPG";
+import DSC01324 from "./images/day2nite/resized/size_1080x720/DSC01324.JPG";
+import DSC01335 from "./images/day2nite/resized/size_1080x720/DSC01335.JPG";
 
 export default [
   {
@@ -35,5 +38,20 @@ export default [
     description: "Devil's Bridge",
     img: DSC01303,
     route: "devilsBridge",
+  },
+  {
+    description: "Sedona",
+    img: DSC01306,
+    route: "sedona",
+  },
+  {
+    description: "Chapel On The Rock",
+    img: DSC01324,
+    route: "chapelOnTheRock",
+  },
+  {
+    description: "Airport Mesa",
+    img: DSC01335,
+    route: "airportMesa",
   },
 ];
