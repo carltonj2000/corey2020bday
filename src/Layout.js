@@ -97,7 +97,7 @@ export default function HideAppBar(props) {
               Corey's Birthday 2020
             </Typography>
             <a
-              href="/main"
+              href="/corey"
               className={classes.home}
               style={{ textDecoration: "none" }}
             >
