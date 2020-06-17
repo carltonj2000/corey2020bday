@@ -7,6 +7,7 @@ import giftTime from "./giftTime.js";
 import cathedralRock from "./cathedralRock.js";
 import airportSunset from "./airportSunset.js";
 import italianEats from "./italianEats.js";
+import devilsBridge from "./devilsBridge.js";
 
 const imgGrpsArr = [
   [{ gettingThere }, "Getting There"],
@@ -14,6 +15,7 @@ const imgGrpsArr = [
   [{ cathedralRock }, "Cathedral Rock"],
   [{ airportSunset }, "Airport At Sunset"],
   [{ italianEats }, "Italian Eats"],
+  [{ devilsBridge }, "Devil's Bridge"],
 ];
 
 const grpStr = (g) => Object.keys(g)[0];

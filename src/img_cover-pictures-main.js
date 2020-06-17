@@ -34,6 +34,6 @@ export default [
   {
     description: "Devil's Bridge",
     img: DSC01303,
-    route: "day2",
+    route: "devilsBridge",
   },
 ];
